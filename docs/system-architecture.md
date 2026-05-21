@@ -86,17 +86,3 @@ Bu yaklaşım,
 - storage yönetimi
 - recording stabilitesi
 açısından incelenmiştir.
-
-Genel Sistem Akışı:
-
-CSI Camera
-    ↓
-libcamera
-    ↓
-GStreamer Pipeline
-    ↓
-v4l2loopback (/dev/video10)
-    ↓
-MotionEye
-    ↓
-NVMe SSD
