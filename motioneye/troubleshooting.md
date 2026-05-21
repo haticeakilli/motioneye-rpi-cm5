@@ -57,12 +57,12 @@ sudo chattr +i /etc/motioneye/camera-2.conf
 
 Herhangi bir ayar değiştirilecekse:
 
-sudo chattr -i /etc/motioneye/camera-2.conf
-sudo systemctl stop motioneye
-sudo nano /etc/motioneye/camera-2.conf
-(Değişikliği burada yap.)
-sudo chattr +i /etc/motioneye/camera-2.conf
-sudo systemctl start motioneye
+- sudo chattr -i /etc/motioneye/camera-2.conf
+- sudo systemctl stop motioneye
+- sudo nano /etc/motioneye/camera-2.conf
+- (Değişikliği burada yap.)
+- sudo chattr +i /etc/motioneye/camera-2.conf
+- sudo systemctl start motioneye
 
 
 
